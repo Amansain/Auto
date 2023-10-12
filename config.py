@@ -7,8 +7,8 @@ import logging
 
 class Config:
     
-    API_ID = int(os.environ.get("API_ID", "15951945"))
-    API_HASH = os.environ.get("API_HASH", "7b82b801d197921e54cf404799ae5b3f")
+    API_ID = int(os.environ.get("API_ID", "8206404"))
+    API_HASH = os.environ.get("API_HASH", "e935d9b56e3fd2c05c743093efb761c9")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5951942864:AAE_sZsQG9vo1NUQc8oTDzxBwD-veRcBWEE") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <code>{file_name}</code>
